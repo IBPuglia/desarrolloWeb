@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabaton Argentina | Unofficial Fanpage</title>
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+</head>
+<body>
+    <nav class="wow fadeInDown">
+        <a href="../index.html">
+           <img src="../img/logo.png" alt="Logo de Sabaton">
+        </a>
+        <img class="menuHamburguesa"src="../img/menuhamburguesa.png" alt="Menu Hamburguesa">
+        <ul>
+            <li>
+                <a href="labanda.html">La Banda</a>
+            </li>
+            <li>
+                <a href="musica.html">Música</a>
+            </li>
+            <li>
+                <a href="galeria.html">Galeria</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="wow fadeInDown">
+        <img src="../img/header.png" alt="sabaton header">
+    </header>
+    <main class="secciones">
+        <h1 class="wow fadeInDown titulos__titulo--xxl  ">Contacto</h1>
+        <div class="preformulario__contenedor">
+            <img class="preformulario__imagen" src="../img/contacto.jpg" alt="Sabaton en concierto">
+            <p class="labanda__parrafo"> Si tiene algun consejo, sugerencia o dato que desea aportar, o desea realizar alguna pregunta, por favor, complete el formulario aqui debajo </p>
+        </div>
+        <section class="formulario">
+			<form action="envio.php">
+                <fieldset>
+                    <legend class="  subtitulo--s">Información de contacto</legend>
+				    <div>
+                        <label for="name">Nombre y apellido:</label>
+				        <input type="text" id="name" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label for="correo">Email:</label>
+				        <input type="email" id="correo" placeholder="john.doe@mail.com">
+                    </div>
+                    <div>
+                        <label for="tipoconsulta">Motivo de consulta:</label>
+					    <select name="" id="tipoconsulta">
+						    <option value="sugerencia">Sugerencia</option>
+						    <option value="pregunta">Pregunta</option>
+				        </select>
+                    </div>
+                    <h4 class="subtitulo--s">¿Desea recibir noticias y datos sobre Sabaton en su correo?</h4>
+				    <label for="si">Si</label>
+				    <input type="radio" id="si" name="mails" value="desea recibir mails">
+				    <label for="no">No</label>
+				    <input type="radio" id="no" name="mails" value="no desea recibir mails">
+				</fieldset>
+                <div class="formulario__botonera">
+				<label class=" " for="comentario">Deje su mensaje</label>
+                </div>
+                <textarea class="formulario__texto img--center" name="" id="" cols="30" rows="10"></textarea>
+                <div class="formulario__botonera">
+				    <input type="reset" value="Borrar">
+				    <input type="submit" value="Enviar">
+                </div>
+			</form>
+		</section>
+    </main>
+    <footer class="wow fadeInUp">
+        <div class="footer">
+            <div class="rrss__titulo">
+                 <h3>Sus Redes Sociales</h3>
+            </div>
+            <div class="rrss__logos">   
+                <a href="https://twitter.com/sabaton" target="_blank">
+                    <img class="rrss__logos--tw" src="../img/twitter-seeklogo.com.svg" alt="twitter">
+                </a>
+               <a href="https://www.youtube.com/channel/UCjQhd1APsd5NQhiVZV7GYzg" target="_blank">
+                    <img class="rrss__logos--yt" src="../img/you-tube-2017-icon-seeklogo.com-4.svg" alt="youtube">
+                </a>
+                <a href="https://www.instagram.com/sabatonofficial/" target="_blank">
+                    <img class="rrss__logos--ig" src="../img/instagram-new-2022-seeklogo.com.svg" alt="instagram">
+                </a>
+            </div>     
+        </div>
+        <script src="../js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+    </footer>
+</body>
+</html>

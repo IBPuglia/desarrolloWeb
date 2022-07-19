@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:wght@300;400&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+}
+
+label{
+	font-size: 1.3rem;
+	padding: 10px;
+}
+
+footer div{
+	margin: 15px 15px;
+}
+
+fieldset{
+	width: fit-content;
+	padding: 10px;
+}
+
+nav{
+	background-color: rgba(83, 92, 117, 0.363);
+	position: sticky;
+	top: 0;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header img{
+	width: 100%;
+max-width: 100%;
+}
+
+nav a{
+	display: flex;
+}
+
+nav a img{
+	padding: 15px 30px;
+	width: 100%;
+	height: auto;
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50px;
+	align-content: space-around;
+}
+
+nav ul li{
+	align-content: space-around;
+	list-style: none;
+	align-self: center;
+	text-align: center;
+	margin-left: 40px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	padding: 20px 20px;
+	background: fixed;
+	background-color: black;
+	border: double rgb(168, 126, 35) 4px ;
+	align-self: center;
+}
+
+nav ul li a:hover{
+	color: rgb(168, 126, 35);
+	font-weight: 600;
+}
+
+footer{
+	background-color: rgba(83, 92, 117, 0.363);
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+.rrss__logos{
+	display: flex;
+	flex-direction: row;
+	padding: 15px ;
+}
+
+.rrss__logos--tw{
+	width: 70%;
+	height: auto;
+}
+
+.rrss__logos--yt{
+	width: 60%;
+	height: auto;
+	margin: 0 20px;
+}
+
+.rrss__logos--ig{
+	width: 50%;
+	height: auto;
+}
+
+/* Starts Index */
+
+.titulos__titulo--xxl
+{
+	font-size: 6rem;
+	margin: 40px 0;
+	border-bottom: solid white 5px;
+	text-align: center;
+}
+
+.titulos__image
+{
+	background-color: rgb(184, 184, 184);
+	border: solid rgb(184, 184, 184) 10px;
+}
+
+.titulos__imagesize-xl{
+	width: 100%;
+}
+
+.conciertos__titulo{
+	font-size: 4rem;
+}
+
+.conciertos__concierto{
+	border-bottom: dotted rgb(168, 126, 35) 5px;
+	display: flex;
+	flex-direction: column;
+}
+.conciertos__parrafo{
+ font-size: 1.5rem;
+}
+
+.conciertos__subtitulo{
+	font-size: 2rem;
+	margin: 10px 20px;
+}
+
+.conciertos__imagesize-l
+{
+	width: 50%;
+	height: auto;
+}
+
+.ultimoalbum{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.ultimoalbum__escuchar{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.ultimoalbum__spotify{
+	width: 80%;
+	height:auto;
+}
+
+.ultimoalbum__apple{
+	width: 80%;
+	height:auto;
+}
+
+.conciertos__mapas{
+	padding: 20px;
+	width: 70%;
+	height: 400px;
+}
+
+/* Ends Index */
+
+/* Starts La Banda */
+
+.labanda__img{
+	width: 60%;
+	height: auto;
+}
+
+.labanda__seccion{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	margin: 20px 0;
+	background-color: rgba(255, 255, 255, 0.158);
+}
+
+.labanda__parrafo{
+	margin: 20px;
+	font-size: 1.5rem;
+}
+
+/* Ends La Banda */
+
+/* Starts Música */
+
+.album__contenedor{
+	margin: auto;
+	text-align: center;
+}
+
+.album__imagen{
+	width: 60%;
+	height: auto;
+}
+
+.titulo__canciones{
+	margin: 20px;
+}
+
+.cancionesdestacadas__contenedor{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.canciondestacada{
+	background-color: rgba(137, 43, 226, 0.158);
+	border: groove rgb(168, 126, 35) 4px;
+	margin: 15px;
+	padding: 20px;
+	width: 40%;
+	height: fit-content;
+	overflow-x: hidden;
+}
+
+.cancion__img{
+	width: 60%;
+}
+
+/* Ends Música*/
+
+/* Starts Galería*/
+
+.galeria__contenedor{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	gap: 10px;
+	background-color: rgba(137, 43, 226, 0.158);
+	padding: 20px;
+	border: solid 5px rgb(168, 126, 35) ;
+}
+
+.foto__contenedor{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+/* Ends Galeria */
+
+/* Starts Contacto*/
+
+.preformulario__contenedor{
+	text-align: center;
+}
+
+.preformulario__imagen{
+	width: 100%;
+	height: auto;
+}
+
+.formulario{
+	width: fit-content;
+	margin: auto;
+}
+
+.formulario__botonera{
+	width: fit-content;
+	margin: auto;
+	font-size: 2rem;
+}
+
+.formulario__texto{
+	width: 50%;
+}
+
+/* Ends Contacto */
+
+/*Etiquetas Generales*/
+
+.titulo--xxl{
+	font-size: 4rem;
+	margin: 40px 0;
+	border-bottom: solid white 5px;
+}
+
+.subtitulo--xl{
+	font-size: 2.5rem;
+}
+
+.subtitulo--bordertop{
+	border-top: solid white 5px;
+}
+
+.subtitulo--l{
+	font-size: 2rem;
+}
+
+.subtitulo--s{
+	font-size: 1.3rem;
+}
+
+.secciones{
+	border-top: solid white 5px;
+	width: 80%;
+	height: auto;
+	padding: 10px auto;
+	margin: 40px auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.img--l{
+	width: 80%;
+}
+
+.img--center{
+	display: block;
+	padding: 20px;
+	margin: auto;
+}
+
+.menuHamburguesa{
+	display: none;
+}
+
+@media (max-width: 1165px){
+
+	.titulos__titulo--xxl{
+		font-size: 3rem;
+	}
+
+	.conciertos__titulo{
+		font-size: 2.5rem
+	}
+
+	.conciertos__parrafo{
+		font-size: 1rem;
+	}
+
+	.conciertos__mapas{
+		width: 80%;
+	}
+
+	.footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav{
+		justify-content: space-between;
+		padding: 0 0;
+	}
+
+	nav ul{
+		display: none;
+		}
+	
+	.menuHamburguesa{
+		display: block;
+		width: 10%;
+		height: auto;
+		margin-left: 40px;
+		margin-right: 10px;
+	}
+
+	.cancionesdestacadas__contenedor{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.canciondestacada{
+		width: 80%;
+	}
+
+	.conciertos__concierto{
+		justify-content: center;
+		align-items: center;
+	}
+
+	.labanda__seccion{
+		background-color: transparent;
+		border-top: white solid 6px;
+	}
+
+	.labanda__parrafo{
+		font-size: 1.2rem;
+		border: white 6px solid;
+		padding: 30px;
+		background-color: rgba(255, 255, 255, 0.158);
+	}
+
+	.labanda__img{
+		border: solid white 4px;
+	}
+}
