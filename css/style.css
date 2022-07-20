@@ -430,4 +430,10 @@ footer{
 	.labanda__img{
 		border: solid white 4px;
 	}
+
+	.galeria__contenedor{
+		grid-template-columns: 100%;
+		grid-template-rows: auto;
+		gap: 10px;
+	}
 }
