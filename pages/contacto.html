@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/animate.css">
 </head>
-<body>
+<body class="text-white">
     <nav class="wow fadeInDown navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href=../index.html>
@@ -47,7 +47,7 @@
             <img src="../img/contacto.jpg" class="img-fluid" alt="Sabaton en concierto">
             <p class="text-center fs-3 text-white"> Si tiene algun consejo, sugerencia o dato que desea aportar, o desea realizar alguna pregunta, por favor, complete el formulario aqui debajo </p>
         </div>
-        <section class="formulario">
+        <section class="formulario img-fluid">
             <form class="bg-dark p-4">
                 <div class="mb-3">
                     <label for="exampleInputName" class="text-white form-label">Nombre y Apellido</label>
@@ -70,7 +70,7 @@
                   <label class="text-white form-check-label" for="exampleCheck1">Acepto recibir noticias y datos sobre Sabaton en mi correo</label>
                 </div>
                 <div class="mb-3">
-                    <textarea class="" name="" id="" cols="100" rows="10"></textarea>
+                    <textarea class="img-fluid" name="" id="" cols="100" rows="10"></textarea>
                 </div>
                 <button type="submit" class="text-white btn btn-primary">Submit</button>
               </form>
@@ -80,19 +80,27 @@
       <div class="p-2">
           <h3>Sus Redes Sociales</h3>
       </div>
-      <div>
-          <nav class="nav nav-pills flex-column flex-sm-row bg-aquamarine d-flex flexd">
-          <a href="https://twitter.com/sabaton" target="_blank">
-              <img class="rrss__logos--tw img-fluid p-5 m-4" src="img/twitter-seeklogo.com.svg" alt="twitter">
-          </a>
-          <a href="https://www.instagram.com/sabatonofficial/" target="_blank">
-              <img class="rrss__logos--ig img-fluid p-5 m-4" src="img/instagram-new-2022-seeklogo.com.svg" alt="instagram">
-          </a>
-          <a href="https://www.youtube.com/channel/UCjQhd1APsd5NQhiVZV7GYzg" target="_blank">
-              <img class="rrss__logos--yt rr_img-fluid p-5 m-4" src="img/you-tube-2017-icon-seeklogo.com-4.svg" alt="youtube">
-          </a>
+      <div class="rrss__logos">
+          <nav class="nav nav-pills w-100 flex-row flex-sm-row bg-aquamarine d-flex flexd">
+              <div class="d-flex flex-row container-fluid justify-content-between">
+                <div class="rrss__logo">
+                  <a href="https://twitter.com/sabaton" target="_blank">
+                      <img class="p-3 m-4" src="../img/twitter-seeklogo.com.svg" alt="twitter">
+                  </a>
+                  </div>
+                  <div class="rrss__logo">
+                  <a href="https://www.instagram.com/sabatonofficial/" target="_blank">
+                      <img class="p-1 m-3" src="../img/instagram-new-2022-seeklogo.com.svg" alt="instagram">
+                  </a>
+                  </div>
+                  <div class="rrss__logo ">
+                  <a href="https://www.youtube.com/channel/UCjQhd1APsd5NQhiVZV7GYzg" target="_blank">
+                      <img class="p-1 m-3" src="../img/you-tube-2017-icon-seeklogo.com-4.svg" alt="youtube">
+                  </a>
+              </div>
       </div>
-      <script src="js/wow.min.js"></script>
+      </div>
+      <script src="../js/wow.min.js"></script>
       <script>
       new WOW().init();
       </script>
