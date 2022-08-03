@@ -1,0 +1,28 @@
+// Galería //
+
+.galeria__contenedor{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	gap: 10px;
+	background-color: rgba(137, 43, 226, 0.158);
+	padding: 20px;
+	border: solid 5px rgb(168, 126, 35) ;
+}
+
+.foto__contenedor{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+@media (max-width: 1165px){
+	.galeria__contenedor{
+		grid-template-columns: 100%;
+		grid-template-rows: auto;
+		gap: 10px;
+	}
+}

@@ -1,0 +1,48 @@
+// Música //
+
+.album__contenedor{
+	margin: auto;
+	text-align: center;
+}
+
+.album__imagen{
+	width: 60%;
+	height: auto;
+}
+
+.titulo__canciones{
+	margin: 20px;
+}
+
+.cancionesdestacadas__contenedor{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.canciondestacada{
+	background-color: rgba(137, 43, 226, 0.158);
+	border: groove rgb(168, 126, 35) 4px;
+	margin: 15px;
+	padding: 20px;
+	width: 40%;
+	height: fit-content;
+	overflow-x: hidden;
+}
+
+.cancion__img{
+	width: 60%;
+}
+
+@media (max-width: 1165px){
+    .cancionesdestacadas__contenedor{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.canciondestacada{
+		width: 80%;
+	}
+}

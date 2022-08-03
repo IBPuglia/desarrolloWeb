@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: $blanco;
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+}
+
+fieldset{
+    width: fit-content;
+    padding: 10px;
+}
+
+header{
+    img{
+    width: $w-100;
+    }
+}
+
+nav{
+    background-color: $navColor;
+    position: sticky;
+    top: 0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+         display: flex;
+         img{
+            padding: 15px 30px;
+            width: $w-100;
+            height: auto;
+        }
+     }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        align-content: space-around;
+        li{
+            align-content: space-around;
+            list-style: none;
+            align-self: center;
+            text-align: center;
+            margin-left: 40px;
+            a{
+                text-decoration: none;
+                color: $blanco;
+                font-size: $fsize1;
+                padding: 20px;
+                background: fixed;
+                background-color: $negro;
+                border: double $navButton 4px;
+                align-self: center;
+            }
+            a:hover{
+                color: $navButton;
+                font-weight: 600;
+            }
+        }
+     }
+} 
+
+footer{
+    background-color: $navColor;
+    div{
+        margin: 15px 15px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.rrss_logos{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}

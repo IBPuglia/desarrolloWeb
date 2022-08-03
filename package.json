@@ -1,0 +1,24 @@
+{
+  "name": "dweb",
+  "version": "1.0.0",
+  "description": "\"Sass Desarrollo Web\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "sass",
+		"sass:watch": "sass --watch scss/style.scss  css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBPuglia/desarrolloWeb.git"
+  },
+  "author": "Ignacio Puglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IBPuglia/desarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/IBPuglia/desarrolloWeb#readme",
+  "dependencies": {
+    "sass": "^1.54.1"
+  }
+}

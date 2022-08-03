@@ -1,0 +1,164 @@
+// Index //
+
+label{
+    font-size: $fsize1;
+    padding: 10px;
+}
+
+.titulos__titulo--xxl{
+    font-size: $fsize2;
+    margin: 40px 0;
+    border-bottom: solid $blanco 5px;
+    text-align: center;
+}
+
+.titulos__image{
+    background-color: $imgBack;
+    border: solid $imgBack 10px;
+}
+
+.titulos__imagesize-xl{
+    width: $w-100;
+}
+
+.conciertos__titulo{
+    font-size: $fsize3;
+}
+
+.conciertos__concierto{
+    border-bottom: dotted $navButton 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conciertos__parrafo{
+    font-size: $fsize1;
+}
+
+.conciertos__subtitulo{
+    font-size: $fsize4;
+    margin: 10px 20px;
+}
+
+.conciertos__imagesize-l{
+    width: $w-50;
+    height: auto;
+}
+
+.ultimoalbum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ultimoalbum__escuchar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.ultimoalbum__spotify{
+    width: $w-80;
+    height: auto;
+}
+
+.ultimoalbum__apple{
+    width: $w-70;
+    height: auto;
+}
+
+.conciertos__mapas{
+    padding: 20px;
+    width: $w-70;
+    height: 400px;
+}
+
+.titulo--xxl{
+    font-size: $fsize3;
+    margin: 40px 0;
+    border-bottom: solid $blanco 5px;
+}
+
+.subtitulo--xl{
+    font-size: 2.5rem;
+}
+
+.subtitulo--bordertop{
+    border-top: solid $blanco 5px;
+}
+
+.subtitulo--l{
+    font-size: $fsize4;
+}
+
+.subtitulo--s{
+    font-size: $fsize1;
+}
+
+.secciones{
+    border-top: solid $blanco 5px;
+    width: $w-80;
+    height: auto;
+    padding: 10px auto;
+    margin: 40px auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.img--l{
+    width: $w-80;
+}
+
+.img--center{
+    display: block;
+    padding: 20px;
+    margin: auto;
+}
+
+.menuHamburguesa{
+    display: none;
+}
+
+@media (max-width: 1165px){
+    .titulos__titulo--xxl{
+        font-size: $fsize6;
+    }
+
+    .conciertos__titulo{
+        font-size: $fsize5;
+    }
+
+    .conciertos__parrafo{
+        font-size: $fsize0;
+    }
+
+    .conciertos__mapas{
+        width: $w-80;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav{
+        justify-content: space-between;
+        padding: 0 0;
+        ul{
+            display: none;
+        }
+    }
+
+    .menuHamburguesa{
+        display: block;
+        width: $w-10;
+        height: auto;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+}
