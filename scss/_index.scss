@@ -47,16 +47,18 @@ label{
 
 .ultimoalbum{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.ultimoalbum-contenedor{
+    @extend .ultimoalbum;
+    flex-direction: column;
+}
+
 .ultimoalbum__escuchar{
-    display: flex;
+    @extend .ultimoalbum;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
 }
 

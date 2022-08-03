@@ -1,0 +1,9 @@
+// mixins //
+
+@mixin navbutton($white, $font, $black, $navbcolor) {
+    color: $white;
+    font-size: $font;
+    padding: 20px;
+    background-color: $black;
+    border: double $navbcolor 4px;
+}

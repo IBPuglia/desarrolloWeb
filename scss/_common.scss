@@ -54,13 +54,9 @@ nav{
             text-align: center;
             margin-left: 40px;
             a{
+                @include navbutton(white,1rem,black,rgb(168, 126, 35));
                 text-decoration: none;
-                color: $blanco;
-                font-size: $fsize1;
-                padding: 20px;
                 background: fixed;
-                background-color: $negro;
-                border: double $navButton 4px;
                 align-self: center;
             }
             a:hover{
