@@ -54,14 +54,13 @@ nav{
             text-align: center;
             margin-left: 40px;
             a{
-                @include navbutton(white,1rem,black,rgb(168, 126, 35));
                 text-decoration: none;
-                background: fixed;
+                @include navbutton(white, 1rem, black, rgb(168, 126, 35));
                 align-self: center;
-            }
-            a:hover{
-                color: $navButton;
-                font-weight: 600;
+                &:hover{
+                    color: $navButton;
+                    font-weight: 600;
+                }
             }
         }
      }
@@ -81,6 +80,7 @@ footer{
 }
 
 .rrss_logos{
+    width: 140%;
     display: flex;
     flex-direction: row;
     padding: 15px;
