@@ -28,9 +28,11 @@
     }
 
     .labanda__parrafo{
-        font-size: 1.2rem;
+        width: 100%;
+        font-size: 1rem;
         border: white 6px solid;
-        padding: 30px;
+        margin: 0;
+        padding: 10px;
         background-color: rgba(255, 255, 255, 0.158);
         text-align: center;
     }

@@ -82,7 +82,7 @@ footer div {
 }
 
 .rrss_logos {
-  width: 140%;
+  width: 120%;
   display: flex;
   flex-direction: row;
   padding: 15px;
@@ -271,9 +271,11 @@ label {
     border-top: white solid 6px;
   }
   .labanda__parrafo {
-    font-size: 1.2rem;
+    width: 100%;
+    font-size: 1rem;
     border: white 6px solid;
-    padding: 30px;
+    margin: 0;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.158);
     text-align: center;
   }
