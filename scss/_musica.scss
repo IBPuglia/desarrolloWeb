@@ -1,6 +1,7 @@
 // Música //
 
 .album__contenedor{
+	font-size: $fsize4;
 	margin: auto;
 	text-align: center;
 }
@@ -44,5 +45,15 @@
 
 	.canciondestacada{
 		width: 80%;
+	}
+
+	.album__contenedor{
+		font-size: $fsize1;
+	}
+}
+
+@media (max-width: 650px){
+	.album__contenedor{
+		font-size: $fsize0
 	}
 }

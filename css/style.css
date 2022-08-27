@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-body {
+.body {
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
   color: #f1f0f0;
@@ -69,6 +69,15 @@ nav ul li a:hover {
   font-weight: 600;
 }
 
+.botonHamburguesa {
+  width: 10%;
+}
+
+.botonHamburguesa-icono {
+  width: 100%;
+  max-width: none;
+}
+
 footer {
   background-color: rgba(83, 92, 117, 0.363);
 }
@@ -89,6 +98,35 @@ footer div {
   padding: 15px;
 }
 
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 300px 0;
+}
+
+.pagerror {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  color: #f1f0f0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  background-color: #13191b;
+}
+
+@media (max-width: 784px) {
+  .botonHamburguesa {
+    width: 15%;
+  }
+}
+@media (max-width: 480px) {
+  .botonHamburguesa {
+    width: 20%;
+  }
+}
 label {
   font-size: 1.3rem;
   padding: 10px;
@@ -215,6 +253,10 @@ label {
   .titulos__titulo--xxl {
     font-size: 3rem;
   }
+  .conciertos__imagesize-l {
+    width: 100%;
+    height: auto;
+  }
   .conciertos__titulo {
     font-size: 2.5rem;
   }
@@ -272,6 +314,9 @@ label {
     background-color: transparent;
     border-top: white solid 6px;
   }
+  .labanda__img {
+    margin: 20px;
+  }
   .labanda__parrafo {
     width: 100%;
     font-size: 1rem;
@@ -286,6 +331,7 @@ label {
   }
 }
 .album__contenedor {
+  font-size: 2rem;
   margin: auto;
   text-align: center;
 }
@@ -329,6 +375,14 @@ label {
   .canciondestacada {
     width: 80%;
   }
+  .album__contenedor {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 650px) {
+  .album__contenedor {
+    font-size: 1rem;
+  }
 }
 .galeria__contenedor {
   display: grid;
@@ -345,7 +399,6 @@ label {
   height: auto;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
 }
 
@@ -378,6 +431,10 @@ label {
 
 .formulario__texto {
   width: 50%;
+}
+
+.enviar {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

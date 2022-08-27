@@ -4,7 +4,7 @@
 	margin: 0;
 }
 
-body{
+.body{
 	font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
 	color: $blanco;
@@ -65,7 +65,15 @@ nav{
             }
         }
      }
-} 
+}
+.botonHamburguesa{
+    width: 10%;
+}
+
+.botonHamburguesa-icono{
+width: 100%;
+max-width: none;
+}
 
 footer{
     background-color: $navColor;
@@ -86,3 +94,32 @@ footer{
     flex-direction: row;
     padding: 15px;
 }
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 300px 0;
+}
+.pagerror{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+	color: $blanco;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;
+    background-color: #13191b;
+}
+
+@media (max-width: 784px){
+    .botonHamburguesa{
+        width: 15%;
+    }
+}
+@media (max-width: 480px){
+    .botonHamburguesa{
+            width: 20%;
+    }
+ }
