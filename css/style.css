@@ -433,8 +433,9 @@ label {
   width: 50%;
 }
 
-.enviar {
+#enviar {
   text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
